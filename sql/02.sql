@@ -14,4 +14,4 @@ WHERE rating IN (
     ORDER BY count(*) DESC
     LIMIT 2
    )
-;
+ORDER BY title;
